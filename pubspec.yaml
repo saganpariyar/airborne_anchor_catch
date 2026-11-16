@@ -1,0 +1,24 @@
+﻿name: airborne_anchor_catch
+description: "Co-op high-speed airborne anchor catch and heavy blast-gate tow game."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
+    - assets/images/profiles/
+    - assets/images/backgrounds/
